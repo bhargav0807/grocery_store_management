@@ -13,14 +13,13 @@ The project uses **four tables** in MySQL:
 1. **orders** - Stores customer orders
 2. **order_details** - Stores details of products in each order
 3. **products** - Stores product details
-4. **uom (Unit of Measurement)** - Stores unit of measurement for products
+4. **uom** - Stores unit of measurement for products
 
 ## Features
 - **View Products**: Fetch and display available products
 - **Manage Inventory**: Add, update, and delete products
 - **Order Processing**: Place new orders and view order history
 - **Unit of Measurement Management**: Manage different measurement units
-- **Cross-Origin Support**: APIs include CORS headers for frontend integration
 
 ## API Endpoints
 ### 1. Product Management
